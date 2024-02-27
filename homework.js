@@ -32,13 +32,16 @@
 
 // }
 
+// const button = document.getElementById("buttonss");
 
-const button = document.getElementById("buttonss");
+//     function setName() {
+//         alert("whate your name");
+//         alert("MAX")
+//     }
 
-    function setName() {
-        alert("whate your name");
-        alert("MAX")
-    }
+//     button.addEventListener("click", setName);       // DONE!
 
-    button.addEventListener("click", setName);
+let a = 5;
+let b = 10;
 
+alert(Number(a) + Number(b));        // Preobrazovanie strok  v chisla
