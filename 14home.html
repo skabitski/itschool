@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        
+        <script src="14home.js" defer></script>
+    </head>
+
+<body>
+	<form name="search">
+		<label>Поиск:
+			<input type="text" name="search"> </label>
+		<input type="submit" value="Search!"> </form>
+	<hr>
+	<form name="search-person">
+        <table id="age-table">
+            <tr>
+                <td>Возраст:</td>
+                <td id="age-list">
+                    <label>
+                        <input type="radio" name="age" value="young" >до 18</label>
+                    <label>
+                        <input type="radio" name="age" value="mature" id="inp_2">18-50</label>
+                    <label>
+                        <input type="radio" name="age" value="senior" id="inp_3">старше 50</label>
+                </td>
+                <td><button type="button" id="clear">CLEAR</button></td>
+            </tr>
+            <tr>
+                <td>Дополнительно:</td>
+                <td>
+                    <input type="text" name="info" id="inp_1">
+                    <input type="text" name="info">
+                    <input type="text" name="info"> 
+                </td>
+            </tr>
+        </table>
+        <input type="button" value="Search!" id="btn_next">
+    </form>
+</body>
+
+</html>
