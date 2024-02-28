@@ -41,7 +41,11 @@
 
 //     button.addEventListener("click", setName);       // DONE!
 
-let a = 5;
-let b = 10;
+// let a = 5;
+// let b = 10;
 
-alert(Number(a) + Number(b));        // Preobrazovanie strok  v chisla
+// alert(Number(a) + Number(b));        // Preobrazovanie strok  v chisla
+// alert (+a + +b)                     // Preobrazovanie strok v chisla neintuitivno
+// alert (Boolean(1))  //true
+// alert (Boolean(0))  //false
+
